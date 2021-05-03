@@ -4,7 +4,8 @@ body {
   }
   
   ol, ul {
-    padding-left: 30px;
+    padding-left: 5px;
+    list-style-type: none;
   }
   
   .board-row:after {
@@ -48,4 +49,22 @@ body {
   .game-info {
     margin-left: 20px;
   }
+
   
+  .restart {
+    background-color: darkcyan;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .history{
+    background-color: rgb(33, 145, 107);
+    color: #fff;
+    border: 0px;
+    padding: 5%;
+    width: 110%;
+    margin-top: 5px;
+  }
+
